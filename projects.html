@@ -1,9 +1,10 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>Example Portfolio Site</title>
+  <title></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta name="description" content="Example Portfolio Website">
@@ -12,7 +13,8 @@
   <meta property="og:title" content="Example Portfolio Website">
   <meta property="og:type" content="website">
   <meta property="og:url" content="">
-  <meta property="og:description" content="An example portfolio site used to show how to move from plan HTML/CSS portfolio to Eleventy">
+  <meta property="og:description"
+    content="An example portfolio site used to show how to move from plan HTML/CSS portfolio to Eleventy">
   <meta property="og:image" content="">
 
   <link rel="stylesheet" href="css/normalize.css">
@@ -22,17 +24,18 @@
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
-  <body>
+
+<body>
   <header>
-     <h1>Example Person</h1>
-     <nav>
-     
+    <h1>Example Person</h1>
+    <nav>
+
       <ul>
-        <li> <a href="index.html"> 
-          Home </a>
-        </li>   
+        <li> <a href="index.html">
+            Home </a>
+        </li>
         <div class="dropdown">
-          <li> <a  href="projects.html"> Projects </a>
+          <li> <a href="projects.html"> Projects </a>
             <div class="dropdown-content">
               <a href="ux.html">UX</a>
               <a href="graphic.html">Graphic Design</a>
@@ -44,33 +47,98 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <div class="container">  
-      <form id="contact" action="" method="post">
-        <h3>Quick Contact</h3>
-        <h4>Contact me, I'd love to hear from you!</h4>
-        <fieldset>
-          <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Your Email Address" type="email" tabindex="2" required>
-        </fieldset>
-        <fieldset>
-          <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-        </fieldset>
-        <fieldset>
-          <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
-        </fieldset>
-        <fieldset>
-          <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-        </fieldset>
-      </form>
-     
-      
+
+  <main class="cards">
+    <h2 class="cards_header">Projects</h2>
+
+    <div class="pjcard">
+
+      <div class="card_img"><a href="basketball.html"><img src="images/ilnur-kalimullin-kP1AxmCyEXM-unsplash.jpg"
+            alt="cardsort project"></a></div>
+      <div class="card_text">
+
+        <h3><a href="basketball.html">Basketball Court</a></h3>
+        <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+          magni. Velit.
+        <p>
+      </div>
+    </div>
+    <div class="pjcard">
+      <div class="card_img"><a href="portfolio.html"><img src="images/ben-kolde-bs2Ba7t69mM-unsplash.jpg"
+            alt="mobile project"></a></div>
+      <div class="card_text">
+        <h3><a href="portfolio.html">Portfolio</a></h3>
+        <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+          magni. Velit.
+        <p>
+      </div>
+    </div>
+    <div class="pjcard">
+      <div class="card_img"><a href="poster.html"><img src="images/martin-pechy-iXHdGk8JVYU-unsplash.jpg"
+            alt="course site image"></a></div>
+      <div class="card_text">
+        <h3><a href="poster.html">Helvetica Poster</a></h3>
+        <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+          magni. Velit.
+        <p>
+      </div>
+    </div>
+    <div class="pjcard">
+      <div class="card_img"><a href="responsive.html"><img src="images/daniel-korpai-mxPiMiz7KCo-unsplash.jpg"
+            alt="projrct3"></a></div>
+      <div class="card_text">
+        <h3><a href="responsive.html">Responsive Web Site</a></h3>
+        <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+          magni. Velit.
+        <p>
+      </div>
     </div>
 
-    <p class="credits">HTML/CSS modified FROM: <a href="https://codepen.io/ssbalakumar/pen/bGwwaG">https://codepen.io/ssbalakumar/pen/bGwwaG</a></p>
+    </div>
+    <div class="pjcard">
+      
+      <div class="card_img"><a href="cardsort.html"><img src="images/hugo-rocha-qFpnvZ_j9HU-unsplash.jpg" alt="cardsort project"></a></div>
+      <div class="card_text">
+
+        <h3><a href="cardsort.html">Card Sort</a></h3>
+        <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+          magni. Velit.
+        <p>
+      </div>
+    </div>
+    <div class="pjcard">
+      <div class="card_img"><a href="mobile.html"><img src="images/hal-gatewood-tZc3vjPCk-Q-unsplash.jpg" alt="mobile project"></a></div>
+      <div class="card_text">
+        <h3><a href="mobile.html">Mobile Project</a></h3>
+        <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+          magni. Velit.
+        <p>
+      </div>
+    </div>
+    <div class="pjcard">
+      <div class="card_img"><a href="course.html"><img src="images/eftakher-alam-i1VQZsU86ok-unsplash.jpg" alt="course site image"></a></div>
+      <div class="card_text">
+        <h3><a href="course.html">Certification Course Site </a></h3>
+        <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+          magni. Velit.
+        <p>
+      </div>
+    </div>
+    <div class="pjcard">
+      <div class="card_img"><a href="responsive.html"><img src="images/daniel-korpai-mxPiMiz7KCo-unsplash.jpg" alt="projrct3"></a></div>
+      <div class="card_text">
+        <h3><a href="responsive.html">Responsive Web Site</a></h3>
+        <p>Brief Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis expedita fuga molestiae ullam
+          magni. Velit.
+        <p>
+      </div>
+    </div>
+
+    </div>
+
+
   </main>
+
   <footer>
     <div class="social-media-links">
       <ul>
